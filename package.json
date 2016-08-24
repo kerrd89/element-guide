@@ -1,0 +1,46 @@
+{
+  "name": "pomodoro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "test": "mocha",
+    "feature-test": "wdio wdio.conf.js",
+    "_comment": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "jquery": "^3.1.0",
+    "mocha": "^3.0.2",
+    "mocha-loader": "^0.7.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "wdio-dot-reporter": "0.0.6",
+    "wdio-mocha-framework": "^0.4.0",
+    "wdio-selenium-standalone-service": "0.0.5",
+    "webdriverio": "^4.2.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerrd89/pomodoro-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kerrd89/pomodoro-app/issues"
+  },
+  "homepage": "https://github.com/kerrd89/pomodoro-app#readme"
+}
