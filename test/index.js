@@ -1,7 +1,5 @@
 'use strict';
-const assert   = require('chai').assert
-const Timer  = require('./unit-tests/timer-test')
-const Pomodoro  = require('./unit-tests/pomodoro-test')
+const assert   = require('chai').assert;
 
 
 describe('our test bundle', function () {

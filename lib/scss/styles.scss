@@ -1,5 +1,67 @@
-$primary-text-color: red;
 
-h1 {
-  color: $primary-text-color
+body{
+  font-family: 'Raleway', sans-serif;
+}
+a {text-decoration: none;
+color: black;}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: flex-row;
+  align-items: center;
+  background-color: #EEE9E6;
+}
+
+button{
+  display: inline-block;
+  height: 50px;
+  background-color: #EEE9E6;
+  border: none;
+  cursor: pointer;
+}
+
+img {height: 50px;}
+
+ul {
+  display: flex;
+  flex-direction: flex-row;
+  align-items: center;
+}
+
+.dropdown-content{
+  display: none;
+}
+.dropdown-show{
+  display: inline;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.login{
+  padding-left: 5px;
+  border-left: 2px solid black;
+}
+
+.user-login-signup {
+  margin: 5px 5px 5px auto;
+}
+.noshow{
+  display:none;
+}
+
+@media (min-width: 500px) {
+  .dropdown-button {
+    display: none;
+  }
+  ul {
+    display: flex;
+  }
+  .dropdown-content {
+    display: inherit;
+    margin: 5px;
+  }
+  .noshow {
+    display: block;
+  }
 }

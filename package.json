@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro-app",
+  "name": "element-guide",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kerrd89/pomodoro-app.git"
+    "url": "git+https://github.com/kerrd89/element-guide.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kerrd89/pomodoro-app/issues"
+    "url": "https://github.com/kerrd89/element-guide/issues"
   },
-  "homepage": "https://github.com/kerrd89/pomodoro-app#readme"
+  "homepage": "https://github.com/kerrd89/element-guide#readme"
 }
